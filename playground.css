@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(77, 173, 173);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   margin: 0;
@@ -7,9 +7,27 @@ body {
 
 .header {
   background-color: rgb(77, 173, 173);
-  width: 100vw;
+  width: 50vw;
   height: 35vw;
 }
+.h2 {
+  position: absolute;
+  top: 50px;
+  left: 10vh;
+  font-size: 1.9rem;
+}
+P {
+  color: rgb(218, 211, 211);
+  text-align: center;
+  font-size: 1.9rem;
+  margin-top: 300px;
+  line-height: 1.8;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 1.9rem;
+}
+
 .content {
   display: flex;
 }
