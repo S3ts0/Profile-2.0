@@ -1,22 +1,23 @@
 body {
-  background-color: rgb(77, 173, 173);
+  background-color: #023d54;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   margin: 0;
 }
 
 .header {
-  background-color: rgb(77, 173, 173);
+  background-color: #023d54;
   width: 50vw;
   height: 35vw;
 }
 .h2 {
+  color: aliceblue;
   position: absolute;
   top: 50px;
-  left: 10vh;
+  left: 20vh;
   font-size: 1.9rem;
 }
-P {
+.intro {
   color: rgb(218, 211, 211);
   text-align: center;
   font-size: 1.9rem;
@@ -27,38 +28,123 @@ P {
   left: 50px;
   font-size: 1.9rem;
 }
+.home {
+  display: inline-block;
+  padding: 1px 5px;
+  color: rgb(212, 212, 212);
+  background-color: transparent;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+  top: 15px;
+  right: 110px;
+  position: absolute;
+}
+.home:hover {
+  font-weight: bolder;
+}
+.about {
+  display: inline-block;
+  padding: 1px 5px;
+  color: rgb(212, 212, 212);
+  background-color: transparent;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+  top: 15px;
+  right: 38px;
+  position: absolute;
+}
+.about:hover {
+  font-weight: bolder;
+}
 
 .content {
   display: flex;
 }
 
 .content1 {
-  background-color: orange;
+  background-color: #14a3db;
   width: 100vw;
   height: 25vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  p {
+    position: absolute;
+    right: 63%;
+    top: 1050px;
+  }
 }
+
 .content2 {
-  background-color: pink;
+  background-color: #c9b083;
   width: 100vw;
   height: 25vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+
+  p {
+    position: absolute;
+    right: 14%;
+    top: 1050px;
+  }
 }
+
 .content3 {
-  background-color: rgb(82, 48, 126);
+  background-color: #94dea5;
   width: 100vw;
   height: 25vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  p {
+    position: absolute;
+    right: 63%;
+    top: 1499px;
+  }
 }
 .content4 {
-  background-color: rgb(85, 161, 231);
+  background-color: #a47dd1;
   width: 100vw;
   height: 25vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  p {
+    position: absolute;
+    right: 17%;
+    top: 2000px;
+  }
 }
 .content5 {
-  background-color: rgb(85, 231, 182);
+  background-color: #c0e6f5;
   width: 100vw;
   height: 25vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  p {
+    position: absolute;
+    right: 16%;
+    top: 1510px;
+  }
 }
 .content6 {
-  background-color: rgb(231, 85, 85);
+  background-color: #ffff66;
   width: 100vw;
   height: 25vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  p {
+    position: absolute;
+    right: 63%;
+    top: 2000px;
+  }
 }
