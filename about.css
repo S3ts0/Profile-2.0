@@ -37,5 +37,23 @@ h4 {
   display: flex;
   place-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 8rem;
+}
+.content1 {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  margin-top: 9rem;
+}
+.content2 {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.content3 {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  margin-top: 11rem;
 }
