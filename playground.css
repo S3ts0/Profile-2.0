@@ -1,24 +1,24 @@
 body {
-  background-color: #023d54;
+  background-color: #f1f1e8;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   margin: 0;
 }
 
 .header {
-  background-color: #023d54;
+  background-color: #f1f1e8;
   width: 50vw;
   height: 35vw;
 }
 .h2 {
-  color: aliceblue;
+  color: rgb(216, 87, 173);
   position: absolute;
   top: 50px;
   left: 20vh;
   font-size: 1.9rem;
 }
 .intro {
-  color: rgb(218, 211, 211);
+  color: rgb(216, 87, 173);
   text-align: center;
   font-size: 1.9rem;
   margin-top: 300px;
@@ -31,7 +31,7 @@ body {
 .home {
   display: inline-block;
   padding: 1px 5px;
-  color: rgb(212, 212, 212);
+  color: rgb(216, 87, 173);
   background-color: transparent;
   font-size: 1rem;
   text-transform: uppercase;
@@ -48,7 +48,7 @@ body {
 .about {
   display: inline-block;
   padding: 1px 5px;
-  color: rgb(212, 212, 212);
+  color: rgb(216, 87, 173);
   background-color: transparent;
   font-size: 1rem;
   text-transform: uppercase;
@@ -68,13 +68,14 @@ body {
 }
 
 .content1 {
-  background-color: #14a3db;
+  background-color: #ecd7ec;
   width: 100vw;
   height: 25vw;
   display: flex;
   place-items: center;
   justify-content: center;
   p {
+    color: #fffffe;
     position: absolute;
     right: 63%;
     top: 1050px;
@@ -82,7 +83,7 @@ body {
 }
 
 .content2 {
-  background-color: #c9b083;
+  background-color: #e0dacd;
   width: 100vw;
   height: 25vw;
   display: flex;
@@ -90,6 +91,7 @@ body {
   justify-content: center;
 
   p {
+    color: rgb(216, 87, 173);
     position: absolute;
     right: 14%;
     top: 1050px;
@@ -97,52 +99,56 @@ body {
 }
 
 .content3 {
-  background-color: #94dea5;
+  background-color: #e9e6d8;
   width: 100vw;
   height: 25vw;
   display: flex;
   place-items: center;
   justify-content: center;
   p {
+    color: rgb(216, 87, 173);
     position: absolute;
     right: 63%;
     top: 1499px;
   }
 }
 .content4 {
-  background-color: #a47dd1;
+  background-color: #ecd7ec;
   width: 100vw;
   height: 25vw;
   display: flex;
   place-items: center;
   justify-content: center;
   p {
+    color: rgb(216, 87, 173);
     position: absolute;
     right: 17%;
     top: 2000px;
   }
 }
 .content5 {
-  background-color: #c0e6f5;
+  background-color: #f3edf2;
   width: 100vw;
   height: 25vw;
   display: flex;
   place-items: center;
   justify-content: center;
   p {
+    color: #fffffe;
     position: absolute;
     right: 16%;
     top: 1510px;
   }
 }
 .content6 {
-  background-color: #ffff66;
+  background-color: #e9e6dc;
   width: 100vw;
   height: 25vw;
   display: flex;
   place-items: center;
   justify-content: center;
   p {
+    color: #fffffe;
     position: absolute;
     right: 63%;
     top: 2000px;
